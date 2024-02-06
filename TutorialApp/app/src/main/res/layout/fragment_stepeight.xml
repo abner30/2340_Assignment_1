@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation ="vertical"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Make your app interactive"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To add functionality to your app, follow these steps:"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Enable auto-imports in Android Studio to streamline class imports."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Implement click listeners for the Toast and Count buttons in the FirstFragment.java file. For
+the Toast button, create a toast message; for the Count button, initialize a method named countMe()"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a8_2_1"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. In the countMe() method, increment the value displayed in the TextView when the Count
+button is pressed. Utilize the showCountTextView variable to access and update the TextView."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="304dp"
+                android:layout_height="128dp"
+                android:paddingLeft="40dp"
+                app:srcCompat="@drawable/a8_3_1" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Optimize performance by caching the TextView to avoid redundant calls to findViewById().
+Declare showCountTextView as a member variable, and initialize it in the onCreateView() method."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

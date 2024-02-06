@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3.1: Create A New Project"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Open Android Studio."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. On the welcome page, click “New Project”"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Afterwards, it will ask you the type of project you would like to select. For
+the purposes of this tutorial click “Basic Views Activity” and then click
+“Next”."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Do feel free to go around later on to explore the various different
+project templates that Android Studio offers you."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Name your new project as 'My First App' on the avaliable textbox."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Ensure that the language is set to Java and NOT Kotlin."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Click Finish."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Following the installation, Android Studio performs the following actions:"
+                android:paddingTop="30dp" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. It establishes a folder named 'My First App' for your
+project within the 'AndroidStudioProjects' directory under your
+home folder."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. The project is built using Gradle as the build system, and its
+progress can be monitored at the bottom of the Android Studio
+window."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Android Studio then opens the code editor, displaying your project
+for further development."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3.2: Screen Setup"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Minimize all Gradle windows."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Play around with the windows and ensure that the windows you have open are of
+the following:"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Layout Inspector"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. MainActivity.java"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c. Fragment_first.xml"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d. Your Virtual Android Phone"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3.3: Exploring the Structure of your Project"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Look for the drop down menu on the left of the page that shows you what files
+are currently in your project."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Double Click the “app” folder to expand the hierarchy of the app files."
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Click on “manifests” and “java” to find your AndroidManifest.xml and the working
+files for you to create your app on"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What do any of these mean?"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="These are what the files within each folder represent:"
+                android:paddingTop="5dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AndroidManifest.xml"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Describes all components of the Android app, read by the Android runtime
+system during execution"
+                android:paddingTop="5dp"
+                android:paddingLeft="60dp"/>
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="com.example.myfirstapp: Contains Java source code files for the app."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="com.example.myfirstapp (androidTest): For instrumented tests running on an
+Android device, initially with a skeleton test file."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'drawable' folder: Stores images for the app."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'layout' folder: Contains UI layout files for activities, including activity_main.xml,
+content_main.xml, fragment_first.xml, and fragment_second.xml."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'menu' folder: Holds XML files describing app menus."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="'mipmap' folder: Stores launcher icons for the app"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="navigation: Contains the navigation graph, guiding how Android Studio navigates
+between different app parts."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="values: Contains resources like strings and colors used in the app"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

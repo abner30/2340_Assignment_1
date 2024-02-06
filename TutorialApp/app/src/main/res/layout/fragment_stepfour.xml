@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exploring the Layout Editor:"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In Android app development, screens are represented by fragments, and the initial screen, 'Hello first fragment,' is created by the FirstFragment. This fragment's layout is designed using XML, and Android Studio provides a layout editor for visual or code-based modifications."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The layout editor allows users to interactively create or modify XML layouts. Each element in a layout is considered a view. The learning objectives for this task include utilizing the layout editor, adjusting view properties, incorporating string resources, and integrating color resources into the app development process. This process enhances the understanding of creating and customizing the user interface in Android Studio."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step One: Opening the Layout Editor"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. On the left, first open up the layout editor and look for the “fragment_first.xml” file"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. In the upper right corner of the Design Editor, you will find three icons and this changes your view from the basic drag and drop editor, to the code view or lastly the split view."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Click on the different modes to see what suits your coding style."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Practice using the layout menu in the top left of the design toolbar to display the design view, the blueprint view, and both views side by side."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Use the orientation icon to change the orientation of the layout. This allows you to test how your layout will fit portrait and landscape modes"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Explore and resize the Component Tree"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. In fragment_first.xml, look at the Component Tree. If it's not showing, switch the mode to Design instead of Split or Code."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Bring back the Component Tree by clicking the vertical label Component Tree on the
+left."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3: Explore View Hierarchies"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. In the XML code, notice that the root element is 'androidx.constraintlayout.widget.ConstraintLayout'. The root element contains a 'TextView' element and a 'Button' element."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a4_3_1"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 4: Change Property Values"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. In the code editor, examine the properties in the TextView Element"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a4_4_1"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Click on the string in the text property, and you need to refer it to a string resource"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a4_4_2"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Right click on the property and click Go To, then Declaration or Usages. values/strings.xml opens with the string highlighted."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a4_4_3"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Change the value of the string property to Hello World!."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Switch back to fragment_first.xml"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Select textview_first in the Component Tree"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Run the app to see the change you made in strings.xml. Your app now shows 'Hello World!'"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 5: Change Text Display Properties"
+                android:textSize="20sp"
+                android:paddingTop="30dp"/>
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. With textview_first still selected in the Component Tree, in the layout editor, in the list of
+attributes, under Common Attributes, expand the text Appearance field"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Change the text color. Click in the textColor field, and enter g"
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Select @android:color/darker_gray and press Enter."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Look at the XML for the TextView. You see that the new properties have been added."
+                android:paddingTop="5dp"
+                android:paddingLeft="40dp"/>
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a4_5_4"
+                android:paddingLeft="40dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

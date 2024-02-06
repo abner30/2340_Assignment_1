@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation ="vertical"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Implement the second fragment"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In this section, you focused on updating the Random button to display a random number on a
+second screen."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Modify the layout of the second fragment (fragment_second.xml) to include a TextView for
+displaying the random number and update the header TextView."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Change the background color of the second fragment's layout for visual distinction."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Examine and enable SafeArgs to facilitate passing information between fragments."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Update the navigation graph to include an argument for passing the count to the second
+fragment."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Implement code in FirstFragment.java to send the current count to the second fragment
+when the Random button is clicked."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. In SecondFragment.java, retrieve the count passed from the first fragment using SafeArgs,
+generate a random number, and display both the count and the random number in the second
+fragment's layout."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By completing these steps, you successfully created a functional Android app with two fragments
+and implemented navigation and data passing between them. Congratulations on building your first
+Android app!"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

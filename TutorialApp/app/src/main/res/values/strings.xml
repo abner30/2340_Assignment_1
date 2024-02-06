@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tutorial App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio Improved Tutorial</string>
+    <string name="nav_header_subtitle">by Albert, Abner, and Sofia</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Step 1</string>
+    <string name="menu_slideshow">Step 2</string>
+    <string name="menu_step_one">Step 1: What you\'ll learn</string>
+    <string name="menu_step_two">Step 2 Installing Android Studio</string>
+    <string name="menu_step_three">Step 3: Creating your First Project</string>
+    <string name="menu_step_four">Step 4: Exploring the Layout Editor</string>
+    <string name="menu_step_five">Step 5: Adding Color Resources</string>
+    <string name="menu_step_six">Step 6: Adding Views and Constraints</string>
+    <string name="menu_step_seven">Step 7: Updating Buttons and TextViews</string>
+    <string name="menu_step_eight">Step 8: Adding Interactivity</string>
+    <string name="menu_step_nine">Step 9: Implementing the Second Fragment</string>
+
+
+    <string name="home_paragraph_1">Hello! Welcome to the new and improved Android Studio Tutorial, where will help guide you through your first app!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

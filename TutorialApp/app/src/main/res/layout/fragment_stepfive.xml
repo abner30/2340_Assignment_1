@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Add Color Resources"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Add Color Resources"
+                android:paddingTop="15dp"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. In the Project panel on the left, double-click on res > values > colors.xml to open the
+color resource file."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a5_1_1"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Go back to fragment_first.xml"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Add a new property to the TextView called android:background, and start
+typing to set its value to @color. You can add this property anywhere inside
+the TextView code."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Choose @color/colorPrimaryDark"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Change the property android:textColor and give it a value of @android:color/white."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2: Add a new color to use as the screen background color"
+                android:paddingTop="15dp"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Back in colors.xml, create a new color resource called screenBackground"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="302dp"
+                android:layout_height="104dp"
+                app:srcCompat="@drawable/a5_2_1"
+                android:paddingLeft="40dp"/>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Go back to fragment_first.xml."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. In the menu of colors that appears, select @color/screenBackground. Press Enter to
+complete the selection."
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

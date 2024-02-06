@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tutorialapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/step_one"
+        android:name="com.example.tutorialapp.ui.step1.StepOneFragment"
+        android:label="@string/menu_step_one"
+        tools:layout="@layout/fragment_stepone" />
+    <fragment
+        android:id="@+id/step_two"
+        android:name="com.example.tutorialapp.ui.step2.StepTwoFragment"
+        android:label="@string/menu_step_two"
+        tools:layout="@layout/fragment_steptwo" />
+    <fragment
+        android:id="@+id/step_three"
+        android:name="com.example.tutorialapp.ui.step3.StepThreeFragment"
+        android:label="@string/menu_step_three"
+        tools:layout="@layout/fragment_stepthree" />
+    <fragment
+        android:id="@+id/step_four"
+        android:name="com.example.tutorialapp.ui.step4.StepFourFragment"
+        android:label="@string/menu_step_four"
+        tools:layout="@layout/fragment_stepfour" />
+    <fragment
+        android:id="@+id/step_five"
+        android:name="com.example.tutorialapp.ui.step5.StepFiveFragment"
+        android:label="@string/menu_step_five"
+        tools:layout="@layout/fragment_stepfive" />
+    <fragment
+        android:id="@+id/step_six"
+        android:name="com.example.tutorialapp.ui.step6.StepSixFragment"
+        android:label="@string/menu_step_six"
+        tools:layout="@layout/fragment_stepsix" />
+    <fragment
+        android:id="@+id/step_seven"
+        android:name="com.example.tutorialapp.ui.step7.StepSevenFragment"
+        android:label="@string/menu_step_seven"
+        tools:layout="@layout/fragment_stepseven" />
+    <fragment
+        android:id="@+id/step_eight"
+        android:name="com.example.tutorialapp.ui.step8.StepEightFragment"
+        android:label="@string/menu_step_eight"
+        tools:layout="@layout/fragment_stepeight" />
+    <fragment
+        android:id="@+id/step_nine"
+        android:name="com.example.tutorialapp.ui.step9.StepNineFragment"
+        android:label="@string/menu_step_nine"
+        tools:layout="@layout/fragment_stepnine" />
+
+</navigation>
