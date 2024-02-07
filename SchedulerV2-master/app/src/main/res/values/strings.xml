@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Scheduler V2</string>
+    <string-array name="task_types">
+        <item>Exam</item>
+        <item>Assignment</item>
+        <item>Other</item>
+    </string-array>
+    <string name="add_task">Add Task</string>
+    <string name="exams_or_assignments">Exams or Assignments</string>
+    <string name="classes">Classes</string>
+</resources>

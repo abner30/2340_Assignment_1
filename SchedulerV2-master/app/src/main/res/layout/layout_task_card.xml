@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/classCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+    <LinearLayout
+        android:id="@+id/layout_task_card_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/taskTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Task Type"
+            android:layout_marginBottom="8dp"/>
+
+<!--        <RadioGroup-->
+<!--            android:id="@+id/taskTypeRadioGroup"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/examRadioButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Exam"/>-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/assignmentRadioButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Assignment"/>-->
+<!--            <RadioButton-->
+<!--                android:id="@+id/otherRadioButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Other"/>-->
+<!--        </RadioGroup>-->
+
+        <TextView
+            android:id="@+id/taskTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title of Task"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/taskDueDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task Due Date"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/taskTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Task Time"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/associatedCourseTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Associated Course"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/locationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:inputType="text"/>
+
+        <CheckBox
+            android:id="@+id/completeCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+<!--        <CheckBox-->
+<!--            android:id="@+id/completeCheckBox"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Complete"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/saveButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Save" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/cancelButton"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Cancel" />-->
+
+    </LinearLayout>
+</ScrollView>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:padding="16dp">-->
+
+<!--    &lt;!&ndash; Common fields &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/taskTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="title" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/taskDate"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="date"-->
+<!--        android:inputType="date" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/taskComplete"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="complete" />-->
+
+<!--    &lt;!&ndash; Fields specific to Exam &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/taskTime"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="time"-->
+<!--        android:visibility="gone"-->
+<!--        android:inputType="time" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/taskLocation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="location"-->
+<!--        android:visibility="gone" />-->
+
+<!--    &lt;!&ndash; Fields specific to Assignment &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/taskCourse"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="course"-->
+<!--        android:visibility="gone" />-->
+
+
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
